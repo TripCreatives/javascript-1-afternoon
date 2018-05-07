@@ -42,7 +42,7 @@ var groceries = ["apples", "milk", "eggs", "bread"]
 
 //Code Here
 function doubleCheck(arr){
-  if(arr.indexOf("chocolate") == -1){
+  if(arr.indexOf("chocolate") === -1){
     arr.push("chocolate")
   }
   return arr;
@@ -188,5 +188,3 @@ var finalResult = innerFn();
 var dog = {
   bark: function (){return  true}
 }
-
-dog.bark: 
